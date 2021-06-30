@@ -1,0 +1,42 @@
+.website {
+  background: rgb(46, 132, 158);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  font-size: 13px;
+  padding: 1rem 1rem;
+  background: white;
+  color: rgb(46, 132, 158);
+  cursor: pointer;
+  margin: 1rem;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title {
+  text-transform: uppercase;
+  color: white;
+}
+
+.info {
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.button:hover {
+  background: rgb(141, 205, 224);
+}
+
+@media screen and (min-width: 996px) {
+  .website {
+    width: 33%;
+  }
+}

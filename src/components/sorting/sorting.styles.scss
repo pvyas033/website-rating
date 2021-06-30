@@ -1,0 +1,19 @@
+.sorting {
+  display: flex;
+  justify-content: center;
+  float: left;
+
+  .button {
+    font-size: 13px;
+    padding: 1rem 1rem;
+    background: rgb(46, 132, 158);
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .button:hover {
+    background: rgb(141, 205, 224);
+    color: rgb(46, 132, 158);
+  }
+}

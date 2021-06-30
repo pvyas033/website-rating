@@ -1,0 +1,42 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 40px;
+  background: rgb(46, 132, 158);
+  color: rgb(247, 247, 247);
+  position: fixed;
+
+  .logo-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: flex-start;
+
+    h1 {
+      cursor: pointer;
+    }
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(180, 175, 175);
+      }
+    }
+  }
+}
